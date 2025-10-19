@@ -11,11 +11,11 @@
 
 
 # idol: int = -45
-    
+
 # while idol < 3:
 #     print(idol)
 #     idol += 1
-    
+
 
 # a: int = 1
 # b: int = 2
@@ -30,7 +30,7 @@
 
 #     if user_input == 'salutations':
 #         print("HIIIIII <3")
-    
+
 #     elif user_input == "how are ye?":
 #         print("fucking shit")
 #     elif user_input == "bye":
@@ -40,4 +40,12 @@
 #         print("wtf did you say?")
 
 
+# while True:
 
+#     list = []
+
+#     list1 = input("to do list add: ")
+
+#     list.extend(str(list1))
+
+#     print(list)
