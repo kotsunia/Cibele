@@ -91,8 +91,117 @@
 #     bread = bread + 1
 
 
-name = ""
+# name = input()
 
-while name != 'namey':
-    print(input(name))
-print("thanks")
+# while name != str("namey"):
+#     print(name)
+# print("thanks")
+
+
+# while True:
+#     print("Please type your name\n")
+#     name = input(">")
+#     if name == "namey":
+#         break
+# print("Thanks bitch")
+
+# while True:
+#     print("Quem e?")
+#     nome = input()
+#     if nome != "joao":
+#         continue
+#     print("what's the mf password?")
+#     passw = input()
+#     if passw == "Wow":
+#         break
+#     print("bem-vindo")
+#     quit()
+
+
+# print("ola")
+# for i in range(5):
+#     print(f"something something i is set to {str(i)}")
+# print("\nbyeee")
+
+
+# a = 0
+
+# for number in range(101):
+#     a = a + number
+# print(a)
+
+
+# print("no")
+
+# i = 0
+
+# while i < 8:
+#     print(f"something something i is set to {str(i)}")
+#     i = i + 1
+# print("byeeee")
+
+
+# for i in range(5, -1, -1):
+#     print(i)
+
+
+# import random
+
+# for i in range(5):
+#     print(random.randint(1, 10))
+
+
+# import random, sys, os, math
+
+# while True:
+#     print("Type quit to quit duhhh")
+#     reply = input("\n >")
+#     if reply == "exit":
+#         sys.exit()
+#     print(f"twat {reply}")
+
+
+# import random, sys
+# num = random.randint(1, 50)
+
+
+# i didn't even read this one lmfao
+# for guess in range(1, 6):
+#     print(f"what is the number the computer is thinking {num}")
+#     guess = int(input("\n <>"))
+#     if guess == num:
+#         print("woww")
+#         sys.exit()
+#     else:
+#         if num < guess:
+#             print("number is lower")
+#         elif num > guess:
+#             print("number is higher")
+
+
+# wtf am i doing with this rps
+# import random, sys
+
+# rps = ["rock", "paper", "scissors"]
+
+# wins = 0
+# losses = 0
+# ties = 0
+
+# while True:
+#     wow = random.choice(rps)
+
+#     print(f"rock paper scissors \n {wins} wins, {losses} losses, {ties} ties\n")
+#     print(f"{wow}")
+
+#     game = input("\n<>")
+#     if wow == game:
+#         ties = ties + 1
+#         print("Tied")
+#         continue
+#     elif game == "quit":
+#         sys.exit()
+#     elif game != wow:
+#         losses = losses + 1
+#         print(f"Failed, it was {wow}")
+#         continue
