@@ -205,3 +205,202 @@
 #         losses = losses + 1
 #         print(f"Failed, it was {wow}")
 #         continue
+
+
+# def bitch():
+#     print("me")
+#     print("twat")
+#     print("no brain cells")
+
+# bitch()
+
+# def hiiiii(nome):
+#     print(f"Bom dai {nome}")
+#     print(f"boa tared {nome}")
+#     print(f"boa noite {nome}")
+
+# hiiiii('Maria')
+# hiiiii('\njoao')
+
+
+# import random
+
+# def ball8(answer):
+#     if answer == 1:
+#         return 'probably mate'
+#     elif answer == 2:
+#         return 'i think soo'
+#     elif answer == 3:
+#         return 'aye'
+#     elif answer == 4:
+#         return 'again'
+#     elif answer == 5:
+#         return 'again gain'
+#     elif answer == 6:
+#         return 'think harder'
+#     elif answer == 7:
+#         return 'nae'
+#     elif answer == 8:
+#         return 'not that good mate'
+#     elif answer == 9:
+#         return "you're fucked"
+
+# print(input("Answer a yes or no question bitch\n <>"))
+
+# randaa = random.randint(1, 9)
+# f = ball8(randaa)
+
+# print(ball8(random.randint(1, 9)))
+
+# import random
+
+# for i in range(101):
+#     if random.randint(0, 1) == 0:
+#         print("Heads\n")
+#     else:
+#         print("Tails\n")
+# print()
+
+# def bitch(): # a
+#     print('bitch starts')
+#     twat() # b
+#     cunt() # d
+#     print("bitch returns")
+
+# def twat():
+#     print("twat starts")
+#     fanny() # c
+#     print("twat returns")
+
+# def fanny():
+#     print("fanny starts")
+#     print("fannay stops")
+
+# def cunt():
+#     print("cunt starts")
+#     print("cunt stops")
+
+# bitch()
+
+# something = "French"
+
+# def ha():
+#     global something
+#     something = "haha"
+
+# # print(something)
+# ha()
+# print(something)
+
+# def evil(div):
+#     try:
+#         return 64 / div
+#     except ZeroDivisionError:
+#             print("NUH UH")
+
+
+# print(evil(20))
+# print(evil(0))
+# print(evil(10))
+# print(evil(99))
+# print(evil(2))
+
+# import time, sys
+
+# indent = 0
+# indent_increase = True
+
+# try:
+#     while True:
+#         print(' ' * indent, end='')
+#         print("******")
+#         time.sleep(0.1)
+
+#         if indent_increase:
+#             indent = indent + 1
+#             if indent == 20:
+#                 indent_increase = False
+#         else:
+#             indent = indent - 1
+#             if indent == 0:
+#                 indent_increase = True
+
+# except KeyboardInterrupt:
+#     sys.exit()
+
+
+# import sys, time
+
+# try:
+#     while True:
+#         for spike in range(1, 20):
+#             print('<><>' * (spike * spike))
+#             time.sleep(0.2)
+#         for spike in range(19, 0, -1):
+#             print(">>><<<<" * (spike * spike))
+
+
+# except KeyboardInterrupt:
+#     sys.exit()
+
+# def boxy(symbol, width, height):
+#     if len(symbol) != 1:
+#         raise Exception("Man, IT MUST BE ONE SYMBOL")
+#     if width <= 2:
+#         raise Exception("Man MAKE IT MORE THAN 2")
+#     if height <= 2:
+#         raise Exception("Man MAKE IT MORE THAN 2")
+
+#     print(symbol * width)
+#     for i in range(height - 2):
+#             print(symbol + (' ' * (width - 2)) + symbol)
+#             print(symbol + width)
+
+# try:
+#     boxy("U", 4, 4)
+#     boxy("*", 8, 9)
+#     boxy("/", 3, 3)
+# except Exception as err:
+#     print(f"Something happened {str(err)}")
+
+# idade = [500, 400, 200, 100, 30, 40, 70]
+
+# idade.sort()
+# idade.reverse()
+
+# print(idade)
+
+# import logging
+# logging.basicConfig(filename='myProgramLog.txt', level=logging.DEBUG,
+# format=' %(asctime)s -  %(levelname)s -  %(message)s')
+
+# def factorial(n):
+#     logging.debug('Start of factorial(' + str(n) + ')')
+#     total = 1
+#     for i in range(n + 1):
+#         total *= i
+#         logging.debug('i is ' + str(i) + ', total is ' + str(total))
+#     logging.debug('End of factorial(' + str(n) + ')')
+#     return total
+
+# print(factorial(5))
+# logging.debug('End of program')
+
+
+
+
+import random
+guess = ''
+while guess not in ('heads', 'tails'):
+    print('Guess the coin toss! Enter heads or tails:')
+    guess = input()
+toss = random.randint(0, 1)  # 0 is tails, 1 is heads
+if toss == guess:
+    print('You got it!')
+else:
+    print('Nope! Guess again!')
+    guess = input()
+    if toss == guess:
+        print('You got it!')
+    else:
+        print('Nope. You are really bad at this game.')
