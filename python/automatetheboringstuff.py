@@ -387,20 +387,97 @@
 # logging.debug('End of program')
 
 
+# chapter 5 = Practice Program: Debugging Coin Toss
+
+# import random
+# guess = ''
+# while guess not in ('heads', 'tails'):
+#     print('Guess the coin toss! Enter heads or tails:')
+#     guess = input()
+# toss = random.randint(0, 1)  # 0 is tails, 1 is heads
+# if toss == guess:
+#     print('You got it!')
+# else:
+#     print('Nope! Guess again!')
+#     guess = input()
+#     if toss == guess:
+#         print('You got it!')
+#     else:
+#         print('Nope. You are really bad at this game.')
+
+# a = ["Bread", "Rye", "I love rock and roll", "Jukebox"]
+
+# print(len(a))
+
+# animal_names = []
+
+# while True:
+#     print("animal name plz," + str(len(animal_names) + 1), "or write q to exit")
+#     name = input()
+#     if name == '':
+#         break
+#     animal_names = animal_names + [name]
 
 
-import random
-guess = ''
-while guess not in ('heads', 'tails'):
-    print('Guess the coin toss! Enter heads or tails:')
-    guess = input()
-toss = random.randint(0, 1)  # 0 is tails, 1 is heads
-if toss == guess:
-    print('You got it!')
-else:
-    print('Nope! Guess again!')
-    guess = input()
-    if toss == guess:
-        print('You got it!')
-    else:
-        print('Nope. You are really bad at this game.')
+# print("the cat names are \n")
+# for name in animal_names:
+#     print(' ' + name)
+# import sys
+
+# animais = [
+# "cyn",
+# "ko",
+# "male j"
+# ]
+
+# while True:
+#     try:
+#         names = input("What names do you have given to your pets?\n")
+#         if names not in animais:
+#             print(f"don't have {names}")
+#         else:
+#             print(f"{names} is my animal")
+
+#     except KeyboardInterrupt:
+#         sys.exit()
+
+# import random
+
+# msg = [
+#     "100% mate",
+#     "EHHHHH sure",
+#     "MEHHHHHH sure",
+#     "I DIDNEA KNOW MATE",
+#     "WHAT?",
+#     "NAE",
+#     "YE STUPID?",
+# ]
+
+# reaponse = input("ask daddy 8 ball \n")
+
+# print(f"you said {reaponse}, the 8 ball's message is {random.choice(msg)}")
+
+# import random, sys, time
+
+
+# width = 70
+
+# col = [0] * width
+
+# try:
+#     while True:
+#         for i in range(width):
+#             if random.random() < 0.02:
+#                 col[i] = random.randint(4, 14)
+
+#             if col[i] == 0:
+#                 print(' ', end='')
+#             else:
+#                 print(random.choice(['0', "1"]), end='')
+#             col[i] -= 1
+
+#         print()
+#         time.sleep(0.1)
+
+# except KeyboardInterrupt:
+#     sys.exit()
