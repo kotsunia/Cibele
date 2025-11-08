@@ -481,3 +481,67 @@
 
 # except KeyboardInterrupt:
 #     sys.exit()
+
+
+# insert the chess shit here
+
+# todos = {'Maria': {'apples': 5, 'pretzels': 12}, 'Joao':{'sandwhich': 40, 'apples': 5}, 'albertina':{'Copos': 3, 'Apple pies': 1}}
+
+# def total_bought(guests, items):
+#     num_brought = 0
+#     for k, v in guests.items():
+#         num_brought = num_brought + v.get(items, 0)
+#     return num_brought
+
+# print('Number of things being brought:')
+# print(' - Apples         ' + str(total_bought(todos, 'apples')))
+# print(' - Cups           ' + str(total_bought(todos, 'cups')))
+# print(' - Cakes          ' + str(total_bought(todos, 'cakes')))
+# print(' - Ham Sandwiches ' + str(total_bought(todos, 'sandwich')))
+# print(' - Apple Pies     ' + str(total_bought(todos, 'apple pies')))
+
+# while True:
+#     age = input("Enter your age dumbdumb\n")
+#      if age.isdecimal():
+#         break
+#     print("use decimals dumbdumb")
+
+# while True:
+#     passw = input("password (letters or numbers)\n")
+#     if passw.isalnum():
+#         break
+#     print("ONLY LETTERS AND NUMBER")
+
+# import playsound3
+
+# playsound3.playsound("Libya.mp3")
+
+# import webbrowser, sys, pyperclip
+
+
+# if len(sys.argv) > 1:
+#     address = ' '.join(sys.argv[1:])
+# else:
+#    address =  pyperclip.paste()
+
+# webbrowser.open(f'www.openstreetmap.org/search?query={address}')
+
+# import requests
+
+# respon = requests.get('https://automatetheboringstuff.com/files/rj.txt')
+
+# respon.status_code  == requests.codes.ok
+
+
+# print(respon.raise_for_status())
+# print(respon.text[:110])
+
+
+# import requests, webbrowser
+
+# packages = requests.get("https://pypi.org/simple/")
+
+# packagefinder = input("\n<>")
+
+# packages.status_code == requests.code.ok
+# packages.raise_for_status()
