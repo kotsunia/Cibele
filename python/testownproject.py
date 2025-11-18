@@ -43,3 +43,34 @@
 #     print(f"{Fahrenheit(b)}°C")
 # else:
 #      print("wtf did you type")
+
+#  To-Do List - 2025-11-9 this confusing ngl
+# import os.path, sys
+
+# k = 'save.txt'
+
+# if os.path.isfile(k) == False:
+#     open("save.txt", 'x')
+#     print("file not found, creating")
+# else:
+#     print("file found, dimwit")
+
+# commands = print("\n R - Read, W - Write, E - Exit")
+
+# def iqra():
+#     try:
+#         with open(k, "r") as l:
+#             reading = l.readlines()
+#             if not reading:
+#                 print("wtf")
+#             else:
+#                 print("shit you have to do")
+#                 for i, reading in enumerate(l, 1):
+#                     print(f"{i}, {reading.strip()}")
+#     except Exception as e:
+#         print(f"error {e}")
+
+# def writing():
+#     with open(k, "a") as l:
+
+# iqra()
